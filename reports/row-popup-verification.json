@@ -1,0 +1,17 @@
+{
+  "id": "dental-platform",
+  "status": "passed",
+  "overviewRows": true,
+  "featureRows": true,
+  "keyboardAndFocus": true,
+  "editCancel": true,
+  "editPersistence": true,
+  "deleteCancel": true,
+  "deletePersistence": true,
+  "centeredDesktopAndMobile": true,
+  "fullRecordNavigation": true,
+  "linkedWorkRows": true,
+  "relationshipProtection": true,
+  "integrationRows": true,
+  "verifiedAt": "2026-09-07T16:17:43.924Z"
+}

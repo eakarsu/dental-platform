@@ -1,0 +1,403 @@
+{
+  "mapped": [
+    {
+      "project": "AIDentalLabCaseManager",
+      "sourceKey": "AIDentalLabCaseManager",
+      "source": "/Volumes/external/projects/AIDentalLabCaseManager",
+      "canonical": "aidental-lab-case-manager",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/patients",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "patients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/xrays",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "xrays",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/treatments",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "treatments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/insurance",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "insurance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/scheduling",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "scheduling",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/recalls",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "recalls",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/perio-recall-readiness",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "perio-recall-readiness",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/billing",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/notes",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "notes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/ai-new-tools",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "new-tools",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/integrations",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "connections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "/portal-cv",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "canonical": "portal-cv",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "predict-no-show",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+      "canonical": "predict-no-show",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "identify-recall-candidates",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+      "canonical": "identify-recall-candidates",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "predict-treatment-outcome",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+      "canonical": "predict-treatment-outcome",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "patient-risk-scoring",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+      "canonical": "patient-risk-scoring",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "optimize-scheduling",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+      "canonical": "optimize-scheduling",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "insurance-claim-optimization",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+      "canonical": "insurance-claim-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "cf/predictive-ai-diagnostics",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "predictive-ai-diagnostics",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "cf/patient-risk-stratification",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "patient-risk-stratification",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "cf/treatment-outcome-prediction",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "treatment-outcome-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "cf/appointment-no-show-prediction",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "appointment-no-show-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "cf/insurance-claim-automation",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "insurance-claim-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/missing-predict-treatment-outcome-identify-recall-candidates",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "missing-predict-treatment-outcome-identify-recall-candidates",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/limited-pacs-integration-only-integrations-js-stub",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "limited-pacs-integration-only-integrations-js-stub",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/no-intraoral-camera-integration",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "intraoral-camera-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/no-electronic-health-records-ehr-compliance-layer",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "electronic-health-records-ehr-compliance-layer",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/patient-portal-is-scaffolded-but-reminder-system-incomplete",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "patient-portal-is-scaffolded-but-reminder-system-incomplete",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/no-insurance-eligibility-verification-adapter",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "insurance-eligibility-verification-adapter",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/no-webhooks",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "sourceKey": "gap/no-calendar-integration-despite-scheduling",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "canonical": "calendar-integration-despite-scheduling",
+      "kind": "route"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Clinic",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "clinic",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "AiRuntimeResult",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "runtime-result",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Patient",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "patient",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Appointment",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "appointment",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Treatment",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "treatment",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "InsuranceClaim",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "insurance-claim",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Reminder",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "reminder",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Message",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "message",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "Document",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "documents",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "AuditLog",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "audit",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "PatientConsent",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "patient-consent",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "FhirImport",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "fhir-import",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "ClinicalReview",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "clinical-review",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "ClinicalAuditEvent",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "clinical-audit-event",
+      "kind": "schema"
+    },
+    {
+      "project": "dental",
+      "sourceKey": "SecurityIncident",
+      "source": "/Volumes/external/projects/dental",
+      "canonical": "security-incident",
+      "kind": "schema"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDentalPracticeManager",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIDentalPracticeManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "AIDentalLabCaseManager",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

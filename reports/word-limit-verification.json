@@ -1,0 +1,16 @@
+{
+  "id": "dental-platform",
+  "status": "passed",
+  "questionWords": 5000,
+  "answerWords": 5000,
+  "rejects5001": true,
+  "wordCounters": true,
+  "collapsedLongQuestion": true,
+  "savedAndReloaded": true,
+  "downloadComplete": true,
+  "mobile": true,
+  "maxOutputTokens": 16000,
+  "timeoutMs": 180000,
+  "provider": "mocked",
+  "verifiedAt": "2026-09-07T18:09:24.947Z"
+}

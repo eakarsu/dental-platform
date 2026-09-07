@@ -1,0 +1,9 @@
+{
+  "app": "dental-platform",
+  "features": 59,
+  "sourceApps": 3,
+  "calculatorEngines": 0,
+  "registryHash": "9ca33450b27626305c191085a9d45783a911267040a614008282aa9fc6537da8",
+  "builtAt": "2026-09-07T22:05:24.400Z",
+  "status": "built"
+}

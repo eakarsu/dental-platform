@@ -1,0 +1,21 @@
+{
+  "id": "dental-platform",
+  "status": "passed",
+  "aiPagesVisited": 18,
+  "replacedTables": true,
+  "questionAnswer": true,
+  "selectedContext": true,
+  "followups": true,
+  "persistedHistory": true,
+  "persistenceAcrossRestart": true,
+  "markdownAndTables": true,
+  "safeRendering": true,
+  "download": true,
+  "providerFailureRecovery": true,
+  "originProtection": true,
+  "featureIsolation": true,
+  "mobile": true,
+  "nonAIRecordPopup": true,
+  "provider": "mocked; no live provider call",
+  "verifiedAt": "2026-09-07T17:23:41.555Z"
+}

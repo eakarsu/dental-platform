@@ -1,0 +1,175 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "aidental-lab-case-manager",
+      "new-tools",
+      "identify-recall-candidates",
+      "insurance-claim-automation",
+      "xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray"
+    ],
+    "ai": true,
+    "representativeId": "aidental-lab-case-manager",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "aidental-lab-case-manager",
+        "title": "Dental lab case manager work",
+        "originalPath": "/features/aidental-lab-case-manager"
+      },
+      {
+        "id": "new-tools",
+        "title": "AI New Tools",
+        "originalPath": "/features/new-tools"
+      },
+      {
+        "id": "identify-recall-candidates",
+        "title": "Identify Recall Candidates",
+        "originalPath": "/features/identify-recall-candidates"
+      },
+      {
+        "id": "insurance-claim-automation",
+        "title": "Insurance claim automation",
+        "originalPath": "/features/insurance-claim-automation"
+      },
+      {
+        "id": "xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+        "title": "Xraycv lacks ai diagnosis endpoint diagnose from xray",
+        "originalPath": "/features/xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "xrays",
+      "predict-no-show",
+      "predict-treatment-outcome",
+      "insurance-claim-optimization",
+      "predictive-ai-diagnostics",
+      "treatment-outcome-prediction",
+      "missing-predict-treatment-outcome-identify-recall-candidates"
+    ],
+    "ai": true,
+    "representativeId": "xrays",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "xrays",
+        "title": "X-Ray Analysis",
+        "originalPath": "/features/xrays"
+      },
+      {
+        "id": "predict-no-show",
+        "title": "Predict No-Show",
+        "originalPath": "/features/predict-no-show"
+      },
+      {
+        "id": "predict-treatment-outcome",
+        "title": "Predict Treatment Outcome",
+        "originalPath": "/features/predict-treatment-outcome"
+      },
+      {
+        "id": "insurance-claim-optimization",
+        "title": "Insurance Claim Optimization",
+        "originalPath": "/features/insurance-claim-optimization"
+      },
+      {
+        "id": "predictive-ai-diagnostics",
+        "title": "Predictive ai diagnostics",
+        "originalPath": "/features/predictive-ai-diagnostics"
+      },
+      {
+        "id": "treatment-outcome-prediction",
+        "title": "Treatment outcome prediction",
+        "originalPath": "/features/treatment-outcome-prediction"
+      },
+      {
+        "id": "missing-predict-treatment-outcome-identify-recall-candidates",
+        "title": "Missing predict treatment outcome identify recall candidates",
+        "originalPath": "/features/missing-predict-treatment-outcome-identify-recall-candidates"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "patient-risk-scoring"
+    ],
+    "ai": true,
+    "representativeId": "patient-risk-scoring",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "patient-risk-scoring",
+        "title": "Patient Risk Scoring",
+        "originalPath": "/features/patient-risk-scoring"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "optimize-scheduling",
+      "appointment-no-show-prediction"
+    ],
+    "ai": true,
+    "representativeId": "optimize-scheduling",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "optimize-scheduling",
+        "title": "Optimize Scheduling",
+        "originalPath": "/features/optimize-scheduling"
+      },
+      {
+        "id": "appointment-no-show-prediction",
+        "title": "Appointment no show prediction",
+        "originalPath": "/features/appointment-no-show-prediction"
+      }
+    ]
+  }
+]

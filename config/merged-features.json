@@ -1,0 +1,2120 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/notes",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Clinical Notes"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Document",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Document"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/billing",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Billing"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "AuditLog",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Audit log"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/integrations",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Integrations"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aidental-lab-case-manager",
+    "title": "Dental lab case manager work",
+    "group": "Dental lab case manager",
+    "description": "Organize dental lab case manager work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalLabCaseManager",
+        "path": "AIDentalLabCaseManager",
+        "source": "/Volumes/external/projects/AIDentalLabCaseManager",
+        "kind": "source-workflow",
+        "label": "Dental lab case manager work"
+      }
+    ],
+    "owner": "AIDentalLabCaseManager",
+    "alternatives": [],
+    "path": "/features/aidental-lab-case-manager",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patients",
+    "title": "Patients",
+    "group": "Dental practice manager",
+    "description": "Organize patients and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/patients",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Patients"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/patients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "xrays",
+    "title": "X-Ray Analysis",
+    "group": "Dental practice manager",
+    "description": "Organize x-ray analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/xrays",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "X-Ray Analysis"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/xrays",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatments",
+    "title": "Treatment Plans",
+    "group": "Dental practice manager",
+    "description": "Organize treatment plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/treatments",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Treatment Plans"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/treatments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance",
+    "title": "Insurance",
+    "group": "Dental practice manager",
+    "description": "Organize insurance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/insurance",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Insurance"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/insurance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scheduling",
+    "title": "Scheduling",
+    "group": "Dental practice manager",
+    "description": "Organize scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/scheduling",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Scheduling"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recalls",
+    "title": "Recall Campaigns",
+    "group": "Dental practice manager",
+    "description": "Organize recall campaigns and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/recalls",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Recall Campaigns"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/recalls",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "perio-recall-readiness",
+    "title": "Perio Recall",
+    "group": "Dental practice manager",
+    "description": "Organize perio recall and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/perio-recall-readiness",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Perio Recall"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/perio-recall-readiness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Inventory",
+    "group": "Dental practice manager",
+    "description": "Organize inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Inventory"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "new-tools",
+    "title": "AI New Tools",
+    "group": "Dental practice manager",
+    "description": "Organize ai new tools and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/ai-new-tools",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "AI New Tools"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/new-tools",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "portal-cv",
+    "title": "Portal & CV",
+    "group": "Dental practice manager",
+    "description": "Organize portal & cv and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "/portal-cv",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Portal & CV"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/portal-cv",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predict-no-show",
+    "title": "Predict No-Show",
+    "group": "Dental practice manager",
+    "description": "Estimate appointment no-show probability from patient and appointment data.",
+    "fields": [
+      {
+        "name": "patient_profile",
+        "label": "Patient Profile (JSON or text)",
+        "type": "textarea"
+      },
+      {
+        "name": "appointment_details",
+        "label": "Appointment Details (JSON or text)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "predict-no-show",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Predict No-Show"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/predict-no-show",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "identify-recall-candidates",
+    "title": "Identify Recall Candidates",
+    "group": "Dental practice manager",
+    "description": "Rank a patient list for a recall campaign with reasons and exclusions.",
+    "fields": [
+      {
+        "name": "patient_list",
+        "label": "Patient List (JSON array)",
+        "type": "textarea"
+      },
+      {
+        "name": "recall_criteria",
+        "label": "Recall Criteria (optional, text or JSON)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "identify-recall-candidates",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Identify Recall Candidates"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/identify-recall-candidates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predict-treatment-outcome",
+    "title": "Predict Treatment Outcome",
+    "group": "Dental practice manager",
+    "description": "Estimate clinical outcome probability and recovery for a planned treatment.",
+    "fields": [
+      {
+        "name": "patient_profile",
+        "label": "Patient Profile (JSON or text)",
+        "type": "textarea"
+      },
+      {
+        "name": "treatment_plan",
+        "label": "Treatment Plan (JSON or text)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "predict-treatment-outcome",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Predict Treatment Outcome"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/predict-treatment-outcome",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-risk-scoring",
+    "title": "Patient Risk Scoring",
+    "group": "Dental practice manager",
+    "description": "Stratify caries, perio, and adherence risk for a patient.",
+    "fields": [
+      {
+        "name": "patient_profile",
+        "label": "Patient Profile (JSON or text)",
+        "type": "textarea"
+      },
+      {
+        "name": "history",
+        "label": "Treatment / Medical History (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "patient-risk-scoring",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Patient Risk Scoring"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/patient-risk-scoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "optimize-scheduling",
+    "title": "Optimize Scheduling",
+    "group": "Dental practice manager",
+    "description": "Suggest schedule optimizations for the next day or week.",
+    "fields": [
+      {
+        "name": "current_schedule",
+        "label": "Current Schedule (JSON)",
+        "type": "textarea"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints (optional, JSON or text)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "optimize-scheduling",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Optimize Scheduling"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/optimize-scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-claim-optimization",
+    "title": "Insurance Claim Optimization",
+    "group": "Dental practice manager",
+    "description": "Review a claim and recommend codes, narrative, and attachments.",
+    "fields": [
+      {
+        "name": "claim",
+        "label": "Claim (JSON or text)",
+        "type": "textarea"
+      },
+      {
+        "name": "patient_context",
+        "label": "Patient Context (optional, JSON or text)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "insurance-claim-optimization",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Insurance Claim Optimization"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/insurance-claim-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-ai-diagnostics",
+    "title": "Predictive ai diagnostics",
+    "group": "Dental practice manager",
+    "description": "Organize predictive ai diagnostics and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "cf/predictive-ai-diagnostics",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Predictive ai diagnostics"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/predictive-ai-diagnostics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-risk-stratification",
+    "title": "Patient risk stratification",
+    "group": "Dental practice manager",
+    "description": "Organize patient risk stratification and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "cf/patient-risk-stratification",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Patient risk stratification"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/patient-risk-stratification",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatment-outcome-prediction",
+    "title": "Treatment outcome prediction",
+    "group": "Dental practice manager",
+    "description": "Organize treatment outcome prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "cf/treatment-outcome-prediction",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Treatment outcome prediction"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/treatment-outcome-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointment-no-show-prediction",
+    "title": "Appointment no show prediction",
+    "group": "Dental practice manager",
+    "description": "Organize appointment no show prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "cf/appointment-no-show-prediction",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Appointment no show prediction"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/appointment-no-show-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-claim-automation",
+    "title": "Insurance claim automation",
+    "group": "Dental practice manager",
+    "description": "Organize insurance claim automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "cf/insurance-claim-automation",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Insurance claim automation"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/insurance-claim-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+    "title": "Xraycv lacks ai diagnosis endpoint diagnose from xray",
+    "group": "Dental practice manager",
+    "description": "Organize xraycv lacks ai diagnosis endpoint diagnose from xray and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Xraycv lacks ai diagnosis endpoint diagnose from xray"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/xraycv-lacks-ai-diagnosis-endpoint-diagnose-from-xray",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "missing-predict-treatment-outcome-identify-recall-candidates",
+    "title": "Missing predict treatment outcome identify recall candidates",
+    "group": "Dental practice manager",
+    "description": "Organize missing predict treatment outcome identify recall candidates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/missing-predict-treatment-outcome-identify-recall-candidates",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Missing predict treatment outcome identify recall candidates"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/missing-predict-treatment-outcome-identify-recall-candidates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-pacs-integration-only-integrations-js-stub",
+    "title": "Limited pacs integration only integrations js stub",
+    "group": "Dental practice manager",
+    "description": "Prepare limited pacs integration only integrations js stub requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/limited-pacs-integration-only-integrations-js-stub",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Limited pacs integration only integrations js stub"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/limited-pacs-integration-only-integrations-js-stub",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "intraoral-camera-integration",
+    "title": "No intraoral camera integration",
+    "group": "Dental practice manager",
+    "description": "Prepare no intraoral camera integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/no-intraoral-camera-integration",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "No intraoral camera integration"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/intraoral-camera-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "electronic-health-records-ehr-compliance-layer",
+    "title": "No electronic health records ehr compliance layer",
+    "group": "Dental practice manager",
+    "description": "Organize no electronic health records ehr compliance layer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/no-electronic-health-records-ehr-compliance-layer",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "No electronic health records ehr compliance layer"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/electronic-health-records-ehr-compliance-layer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-portal-is-scaffolded-but-reminder-system-incomplete",
+    "title": "Patient portal is scaffolded but reminder system incomplete",
+    "group": "Dental practice manager",
+    "description": "Organize patient portal is scaffolded but reminder system incomplete and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/patient-portal-is-scaffolded-but-reminder-system-incomplete",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "Patient portal is scaffolded but reminder system incomplete"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/patient-portal-is-scaffolded-but-reminder-system-incomplete",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-eligibility-verification-adapter",
+    "title": "No insurance eligibility verification adapter",
+    "group": "Dental practice manager",
+    "description": "Organize no insurance eligibility verification adapter and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/no-insurance-eligibility-verification-adapter",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "No insurance eligibility verification adapter"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/insurance-eligibility-verification-adapter",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks",
+    "title": "No webhooks",
+    "group": "Dental practice manager",
+    "description": "Prepare no webhooks requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/no-webhooks",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "No webhooks"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/webhooks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar-integration-despite-scheduling",
+    "title": "No calendar integration despite scheduling",
+    "group": "Dental practice manager",
+    "description": "Prepare no calendar integration despite scheduling requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDentalPracticeManager",
+        "path": "gap/no-calendar-integration-despite-scheduling",
+        "source": "/Volumes/external/projects/AIDentalPracticeManager",
+        "kind": "route",
+        "label": "No calendar integration despite scheduling"
+      }
+    ],
+    "owner": "AIDentalPracticeManager",
+    "alternatives": [],
+    "path": "/features/calendar-integration-despite-scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "clinic",
+    "title": "Clinic",
+    "group": "Dental",
+    "description": "Organize clinic and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Clinic",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Clinic"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/clinic",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "runtime-result",
+    "title": "Runtime result",
+    "group": "Dental",
+    "description": "Organize runtime result and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "AiRuntimeResult",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Runtime result"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/runtime-result",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient",
+    "title": "Patient",
+    "group": "Dental",
+    "description": "Organize patient and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Patient",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Patient"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/patient",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointment",
+    "title": "Appointment",
+    "group": "Dental",
+    "description": "Organize appointment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Appointment",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Appointment"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/appointment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "treatment",
+    "title": "Treatment",
+    "group": "Dental",
+    "description": "Organize treatment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Treatment",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Treatment"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/treatment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-claim",
+    "title": "Insurance claim",
+    "group": "Dental",
+    "description": "Organize insurance claim and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "InsuranceClaim",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Insurance claim"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/insurance-claim",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reminder",
+    "title": "Reminder",
+    "group": "Dental",
+    "description": "Organize reminder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Reminder",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Reminder"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/reminder",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "message",
+    "title": "Message",
+    "group": "Dental",
+    "description": "Organize message and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "Message",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Message"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/message",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patient-consent",
+    "title": "Patient consent",
+    "group": "Dental",
+    "description": "Organize patient consent and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "PatientConsent",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Patient consent"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/patient-consent",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fhir-import",
+    "title": "Fhir import",
+    "group": "Dental",
+    "description": "Organize fhir import and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "FhirImport",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Fhir import"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/fhir-import",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "clinical-review",
+    "title": "Clinical review",
+    "group": "Dental",
+    "description": "Organize clinical review and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "ClinicalReview",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Clinical review"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/clinical-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "clinical-audit-event",
+    "title": "Clinical audit event",
+    "group": "Dental",
+    "description": "Organize clinical audit event and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "ClinicalAuditEvent",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Clinical audit event"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/clinical-audit-event",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "security-incident",
+    "title": "Security incident",
+    "group": "Dental",
+    "description": "Organize security incident and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "dental",
+        "path": "SecurityIncident",
+        "source": "/Volumes/external/projects/dental",
+        "kind": "schema",
+        "label": "Security incident"
+      }
+    ],
+    "owner": "dental",
+    "alternatives": [],
+    "path": "/features/security-incident",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

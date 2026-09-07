@@ -1,0 +1,21 @@
+{
+  "id": "dental-platform",
+  "title": "Dental practice & laboratories",
+  "buyer": "Dental practices and dental labs",
+  "sourceCount": 3,
+  "sources": [
+    "AIDentalLabCaseManager",
+    "AIDentalPracticeManager",
+    "dental"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46003,
+  "productName": "Dental practice Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AIDentalLabCaseManager",
+    "/Volumes/external/projects/AIDentalPracticeManager",
+    "/Volumes/external/projects/dental"
+  ]
+}

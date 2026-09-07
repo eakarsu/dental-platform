@@ -1,0 +1,20 @@
+[
+  {
+    "id": "AIDentalLabCaseManager",
+    "name": "Dental lab case manager",
+    "sourceProject": "AIDentalLabCaseManager",
+    "services": []
+  },
+  {
+    "id": "AIDentalPracticeManager",
+    "name": "Dental practice manager",
+    "sourceProject": "AIDentalPracticeManager",
+    "services": []
+  },
+  {
+    "id": "dental",
+    "name": "Dental",
+    "sourceProject": "dental",
+    "services": []
+  }
+]
