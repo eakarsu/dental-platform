@@ -116,3 +116,12 @@ Implemented across this workspace. The bottom-right **Ask AI** button opens a pe
 - Existing AI provider configuration, timeout, rate limit and safe response renderer are reused. The assistant answers and drafts; it does not execute record changes or external actions.
 
 Validation: shared backend tests, all 64 app builds/API checks, and all 64 browser checks passed with an injected test provider. Browser checks cover item context, navigation, saved history/reload, follow-ups, new-chat isolation, error recovery, word limits, keyboard controls, mobile bounds, safe Markdown rendering and attachment refresh. See [verification](reports/floating-ai-verification.json).
+
+## Feature pack wave 7B
+
+| Addition | Detail |
+| --- | --- |
+| Authenticated tasks | Tasks list/create/update require `WORKSPACE_AUTH_TOKEN` (Bearer or `X-Workspace-Token`) when that env var is set; unchanged local mode when unset |
+| Search/filter & export | Existing list search/status filter retained; added JSON export (`records/export?format=json`) beside CSV on the main record list |
+| Domain AI insights | `Patients` summary, two further domain record summaries and priority-actions via `/api/workspace/insights`; provider called only when `OPENROUTER_API_KEY`/`OPENAI_API_KEY` is configured, otherwise clearly labelled deterministic fallback with `aiGenerated: false`; sections preserve false/0/empty values |
+| Test | `tests/feature-pack.test.mjs` (run with `node --test tests/`) |

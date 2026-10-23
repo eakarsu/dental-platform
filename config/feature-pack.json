@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-patients",
+      "feature": "patients",
+      "title": "Patients insight",
+      "focus": "Summarize patient records: totals, status mix, field coverage and recent activity for the practice patient list."
+    },
+    {
+      "id": "insight-treatments",
+      "feature": "treatments",
+      "title": "Treatment plans insight",
+      "focus": "Summarize treatment plan records: totals, status mix, field coverage and recent plans."
+    },
+    {
+      "id": "insight-recalls",
+      "feature": "recalls",
+      "title": "Recall campaigns insight",
+      "focus": "Summarize recall campaign records: totals, status mix, field coverage and recent campaigns."
+    }
+  ]
+}

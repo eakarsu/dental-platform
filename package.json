@@ -10,6 +10,6 @@
     "build": "node ../_platform-builder/scripts/build.mjs .",
     "start": "./start.sh",
     "seed": "node dist/scripts/seed.mjs",
-    "test": "node ../_platform-builder/scripts/verify-app.mjs ."
+    "test": "node ../_platform-builder/scripts/verify-app.mjs . && node --test tests/feature-pack.test.mjs"
   }
 }
